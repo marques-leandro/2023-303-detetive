@@ -12,9 +12,17 @@
 
 O menu inicial é equipado com botões interativos e elementos de ambientação como a musica que pode ser desabilitada e o fundo animado.
 <br><br>
+
 Botão de Jogar:
+<img src="/gifs/jogo.gif">
 <br><br>
+
+Botão de Habilitar/Desabilitar Música:
+<img src="/gifs/audio.gif">
+<br><br>
+
 Botão de Sair:
+<img src="/gifs/sair.gif">
 
 ### Configurações e Acessibilidade
 
