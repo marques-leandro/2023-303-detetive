@@ -32,3 +32,5 @@ O menu também apresenta opções de configuração e acessibilidade que podem s
 - Volume do jogo
 - Modo Daltônico (Protanopia/Deuteranopia/Tritanopia)
 - Legendas (Ativadas/Desativadas)
+
+<img src="/gifs/ajustes.gif">
