@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class MenuPrincipalManager : MonoBehaviour
@@ -8,6 +10,9 @@ public class MenuPrincipalManager : MonoBehaviour
     [SerializeField] private string nomeLevelDoJogo;
     [SerializeField] private GameObject painelMenuInicial;
     [SerializeField] private GameObject painelOpcoes;
+    [SerializeField] private TMP_Dropdown filtros;
+    [SerializeField] private Toggle legenda;
+
 
     public void Jogar(){
         SceneManager.LoadScene(nomeLevelDoJogo); 
@@ -35,4 +40,14 @@ public class MenuPrincipalManager : MonoBehaviour
             Application.Quit();
         #endif
     }
+
+    public void guardaFiltro(){
+        ComponentStorage.filtro=filtros.options[filtros.value].text;
+        Debug.Log(ComponentStorage.filtro);
+    }
+
+    public void guardaLegenda(){
+        ComponentStorage.legendas=legenda.isOn;
+    }
+
 }
